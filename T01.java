@@ -16,11 +16,11 @@ public class T01 {
         penulis = input.nextLine();
         penerbit = input.nextLine();
         formatbuku = input.nextLine();
-        tahunterbit = Integer.parseInt(input.nextLine());
-        stok = Integer.parseInt(input.nextLine());
-        hargapembelian = Double.parseDouble(input.nextLine());
-        minimummargin = Double.parseDouble(input.nextLine());
-        rating = Double.parseDouble(input.nextLine());
+        tahunterbit = input.nextInt();
+        stok = input.nextInt();
+        hargapembelian = input.nextDouble();
+        minimummargin = input.nextDouble();
+        rating = input.nextDouble();
         System.out.println(iSBN + "|" + judul + "|" + penulis + "|" + penerbit + "|" + formatbuku + "|" + tahunterbit + "|" + stok + "|" + hargapembelian + "|" + minimummargin + "|" + rating);
     }
 }
