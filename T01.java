@@ -4,7 +4,7 @@
 import java.util.*;
 import java.lang.Math;
 
-public class T01 {
+public class JavaApplication {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
