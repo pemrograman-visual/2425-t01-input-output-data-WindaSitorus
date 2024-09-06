@@ -25,4 +25,3 @@ public class T01 {
         System.out.println(iSBN + "|" + judul + "|" + penulis + "|" + penerbit + "|" + formatbuku + "|" + tahunterbit + "|" + stok + "|" + hargapembelian + "|" + minimummargin + "|" + rating);
     }
 }
-
